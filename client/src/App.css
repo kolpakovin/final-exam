@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-image: url("./logo.png");
+}
+#main-div{
+  width: 50%;
+  margin: 5px auto;
+  background-color: rgba(150, 197, 250, 0.8);
+  border: 5px solid transparent;
+  border-radius: 14px;
+}
+button:focus {
+  outline: 0;
 }
